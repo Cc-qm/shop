@@ -1,1 +1,1 @@
-"use strict";
+"use strict";$(function(){$("form").validate({rules:{username:"required",password:"required"},messages:{username:"请输入您的账号",password:"请输入您的密码"},submitHandler:function(e){$.post("url",$(e).serialize(),function(e,s,o){console.log(e,s)},"json")}}),console.log(111)});
