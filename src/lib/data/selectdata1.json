@@ -1,0 +1,59 @@
+{
+  "title": "手机",
+  "more": [],
+  "ad": [
+    "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/574c6643ab91c6618bfb2d0e2c761d0b.jpg?w=468&h=1228"
+  ],
+  "product": [
+    [
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0099822e42b4428cb25c4cdebc6ca53d.jpg",
+        "name": "小米10",
+        "detail": "骁龙865/1亿像素相机",
+        "price": "<span class=\"num\">3999</span>元<span>起</span><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/2c16238f786e4f93bdb175d7bf21aa47.jpg",
+        "name": "Redmi K30",
+        "detail": "120Hz流速屏，全速热爱",
+        "price": "<span class=\"num\">1599</span>元<span>起</span><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/53641901fbc28cbcdb495b17fdf69e46.jpg",
+        "name": "Redmi K30 5G",
+        "detail": "双模5G，120Hz流速屏",
+        "price": "<span class=\"num\">1999</span>元<span>起</span><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/07270cc09689eb9b13b29aa9f6bc41eb.jpg",
+        "name": "小米CC9 Pro",
+        "detail": "1亿像素 五摄四闪",
+        "price": "<span class=\"num\">2599</span>元<span>起</span><del><span class=\"num\">2799</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d295c4fb500d163a7045dc715b47f808.jpg",
+        "name": "Redmi 8",
+        "detail": "5000mAh超长续航",
+        "price": "<span class=\"num\">749</span>元<span>起</span><del><span class=\"num\">799</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c924c3f3436b6934495fd98f159ee3f7.jpg",
+        "name": "Redmi 8A",
+        "detail": "5000mAh超长续航",
+        "price": "<span class=\"num\">599</span>元<span>起</span><del><span class=\"num\">699</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6f2493e6c6fe8e2485c407e5d75e3651.jpg",
+        "name": "Redmi Note 8 Pro",
+        "detail": "6400万全场景四摄",
+        "price": "<span class=\"num\">1299</span>元<span>起</span><del><span class=\"num\">1399</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4c87947d104ee5833913e4c520108f16.jpg",
+        "name": "Redmi Note 8",
+        "detail": "千元4800万四摄",
+        "price": "<span class=\"num\">999</span>元<span>起</span><!---->"
+      }
+    ]
+  ]
+}

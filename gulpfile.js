@@ -2,7 +2,7 @@
  * @Author: cai
  * @Date: 2020-03-01 12:28:44
  * @Last Modified by: cai
- * @Last Modified time: 2020-03-02 20:51:33
+ * @Last Modified time: 2020-03-03 22:19:20
  */
 
 //导入各个模块
@@ -79,6 +79,14 @@ const serverHandler = () => {
         {
           source: "/register",
           target: "http://localhost:8083/homework/shop_server/register.php"
+        },
+        {
+          source: "/ifloaded",
+          target: "http://localhost:8083/homework/shop_server/ifloaded.php"
+        },
+        {
+          source: "/cancel",
+          target: "http://localhost:8083/homework/shop_server/cancel.php"
         }
       ]
     })

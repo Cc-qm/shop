@@ -1,0 +1,154 @@
+{
+  "title": "配件",
+  "more": ["热门", "保护套", "充电器"],
+  "ad": [
+    "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/739ebd8abfc2b1be8866a2c1ad87e709.jpg?w=468&h=600",
+    "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ffe4182f1d9a5befdf2380ec90ae1620.jpg?w=468&h=600"
+  ],
+  "product": [
+    [
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1fba6c4f1a19200778ac3b1671b087cd.jpg",
+        "name": "小米USB充电器30W快充版（1A1C）",
+        "detail": "多一种接口，多一种选择",
+        "price": "<span class=\"num\">59</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9eb0178e3bfeb7d170edd641fb4be4bc.jpg",
+        "name": "高速无线充套装",
+        "detail": "快速无线闪充，Qi充电标准",
+        "price": "<span class=\"num\">149</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1f32af53d1ad60f4980146f6a2b81019.jpg",
+        "name": "小米无线充电宝青春版10000mAh",
+        "detail": "能量满满，无线有线都能充",
+        "price": "<span class=\"num\">129</span>元<!----><!---->"
+      },
+      {
+        "img": "https://i8.mifile.cn/v1/a1/b0ded71f-b235-8f99-ba1c-20f80c3a4231.jpg",
+        "name": "米家LED随身灯",
+        "detail": "小巧轻便 5级亮度调节",
+        "price": "<span class=\"num\">19.9</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/6c19fad90ad73f91e13c97cce2b15d82.jpg",
+        "name": "小米9 SE 街头风保护壳",
+        "detail": "简约时尚，多彩三色",
+        "price": "<span class=\"num\">49</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9dd5ef3ab726a9b9b9cd39587a1d0e86.jpg",
+        "name": "小米CC9e 高透果冻保护壳",
+        "detail": "更薄更清透",
+        "price": "<span class=\"num\">49</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/20bb12392d70e3b7158c252e9c34d0b0.jpg",
+        "name": "小米MIX 3 獬豸神兽保护壳",
+        "detail": "因为独特而备受瞩目",
+        "price": "<span class=\"num\">32.9</span>元<!----><del><span class=\"num\">69</span>元</del>"
+      },
+      {
+        "img": null,
+        "name": null,
+        "detail": null,
+        "price": null
+      }
+    ],
+    [
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5c200476bc9336d171931cb7ee2e4549.jpg",
+        "name": "小米CC9&小米CC9美图定制版 标准高透贴膜",
+        "detail": "高清透亮，耐磨性强",
+        "price": "<span class=\"num\">19</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/24f8b0547a798b69be1b868872ddd80f.jpg",
+        "name": "小米CC9e 标准高透贴膜",
+        "detail": "高清透亮，耐磨性强",
+        "price": "<span class=\"num\">19</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/958e872fe9930838e90de8acc9fffc28.jpg",
+        "name": "Redmi 7A标准高透贴膜",
+        "detail": "高清高透，精彩清晰可见",
+        "price": "<span class=\"num\">19</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e5599ccd40bab44fb0f1722d150fe43f.jpg",
+        "name": "小仙女心愿手链保护壳",
+        "detail": "手链绕于指尖，仙气满满",
+        "price": "<span class=\"num\">199</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0d8a74ade6b1b5fbd0c88b9679c63832.jpg",
+        "name": "小米CC9 荧光色高透果冻保护壳",
+        "detail": "玩转多彩青春色",
+        "price": "<span class=\"num\">49</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/39a5445afe8c48d9b92b2bf9d6d88a26.jpg",
+        "name": "小米9 ARE U OK保护壳",
+        "detail": "一个与众不同的保护壳",
+        "price": "<span class=\"num\">39</span>元<!----><del><span class=\"num\">49</span>元</del>"
+      },
+      {
+        "img": null,
+        "name": null,
+        "detail": null,
+        "price": null
+      }
+    ],
+    [
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1fba6c4f1a19200778ac3b1671b087cd.jpg",
+        "name": "小米USB充电器30W快充版（1A1C）",
+        "detail": "多一种接口，多一种选择",
+        "price": "<span class=\"num\">59</span>元<!----><!---->"
+      },
+      {
+        "img": "https://i8.mifile.cn/v1/a1/b169b069-6cc5-b052-9f60-98a94b68fdb1.jpg",
+        "name": "小米USB充电器快充版（18W）",
+        "detail": "安卓、苹果设备均可使用",
+        "price": "<span class=\"num\">29.9</span>元<!----><!---->"
+      },
+      {
+        "img": "https://i8.mifile.cn/b2c-mimall-media/a6ccfda056fc159a43c7b991218004b5.jpg",
+        "name": "小米USB充电器60W快充版（6口）",
+        "detail": "6口输出，USB-C输出接口",
+        "price": "<span class=\"num\">129</span>元<!----><!---->"
+      },
+      {
+        "img": "https://i8.mifile.cn/b2c-mimall-media/fb04f3efd5fd147093d939071e2d1827.jpg",
+        "name": "小米USB充电器36W快充版（2口）",
+        "detail": "多重安全保护，小巧便携",
+        "price": "<span class=\"num\">59</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-miapp-a1/e6d588af-1265-3bc9-f4a1-8d9da2cff89b.jpg",
+        "name": "小米车载充电器快充版",
+        "detail": "让爱车成为移动充电站",
+        "price": "<span class=\"num\">69</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/62df9968795cfa3a0d3053371708edf2.jpg",
+        "name": "小米车载充电器快充版（37W）",
+        "detail": "双口快充，车载充电更安全",
+        "price": "<span class=\"num\">49</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/02ff76ac8d5fa829aed1d777e46d4b39.jpg",
+        "name": "小米二合一移动电源（充电器）",
+        "detail": "一个设备多种用途",
+        "price": "<span class=\"num\">99</span>元<!----><!---->"
+      },
+      {
+        "img": null,
+        "name": null,
+        "detail": null,
+        "price": null
+      }
+    ]
+  ]
+}

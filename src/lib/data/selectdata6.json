@@ -1,0 +1,110 @@
+{
+  "title": "周边",
+  "more": ["热门", "出行"],
+  "ad": [
+    "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/37dc0898c2624b4130da4631f2d9a675.jpg?w=468&h=600",
+    "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e0b8cffcbdaa88e2a314f0a372ca75dd.jpg?w=468&h=600"
+  ],
+  "product": [
+    [
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cccac948e1b8ffb47f1fecde67692e60.jpg",
+        "name": "米家飞行员太阳镜 Pro",
+        "detail": "尼龙偏光，轻巧佩戴",
+        "price": "<span class=\"num\">199</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/57433a4b991b2a2ddc889f2d8d434655.jpg",
+        "name": "小米巨能写中性笔10支装",
+        "detail": "一支顶4支，超长顺滑书写",
+        "price": "<span class=\"num\">9.99</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/c149537ebb0c2cdb977ddd93200074f4.jpg",
+        "name": "小米旅行箱 20英寸 布朗熊限量版",
+        "detail": "“国际巨星” LINE FRIENDS布朗熊",
+        "price": "<span class=\"num\">299</span>元<!----><del><span class=\"num\">399</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/03d94ee6059481a6adcb6c4c5c572fb4.jpg",
+        "name": "米家迷你保温杯",
+        "detail": "可以随身携带的温度",
+        "price": "<span class=\"num\">49</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/41e6890f9d6b7fdb4275c986dc3644e8.jpg",
+        "name": "米家驱蚊器基础版 3个装",
+        "detail": "3个装 长效驱蚊",
+        "price": "<span class=\"num\">129</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/38748fefeef78183ac01356a23dbc5c5.jpg",
+        "name": "3卷装抽绳式垃圾袋",
+        "detail": "让清洁更简单",
+        "price": "<span class=\"num\">9.9</span>元<!----><del><span class=\"num\">14.9</span>元</del>"
+      },
+      {
+        "img": "https://i8.mifile.cn/v1/a1/413f5e2f-53e7-0879-119c-8b4466feea53.jpg",
+        "name": "贝医生巴氏牙刷 四色装",
+        "detail": "进口刷毛，好品质",
+        "price": "<span class=\"num\">39.9</span>元<!----><!---->"
+      },
+      {
+        "img": "https://i8.mifile.cn/v1/a1/eaa7c8e5-2a8c-0d2c-6de7-a6db2068b192.jpg",
+        "name": "8H 乳胶弹簧静音床垫 M3",
+        "detail": null,
+        "price": "<span class=\"num\">1599</span>元<span>起</span>"
+      },
+      {
+        "img": null,
+        "name": null,
+        "detail": null,
+        "price": null
+      }
+    ],
+    [
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/d26d3a80dd1ab0c6a657f13cb234dade.jpg",
+        "name": "90分框体旅行箱",
+        "detail": "专利轻量合金中框，轻盈坚固",
+        "price": "<span class=\"num\">599</span>元<span>起</span><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/47ecc65d37065fde1e71b1b34326e741.jpg",
+        "name": "小米商旅多功能双肩包 2",
+        "detail": "商务旅行多场景，切换无压力",
+        "price": "<span class=\"num\">199</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cccac948e1b8ffb47f1fecde67692e60.jpg",
+        "name": "米家飞行员太阳镜 Pro",
+        "detail": "尼龙偏光，轻巧佩戴",
+        "price": "<span class=\"num\">199</span>元<!----><!---->"
+      },
+      {
+        "img": "https://i8.mifile.cn/v1/a1/43549b8e-c8cd-0464-17ba-6be26f395ef0.jpg",
+        "name": "自动折叠伞",
+        "detail": "防泼水伞布，轻盈拒水",
+        "price": "<span class=\"num\">99</span>元<!----><!---->"
+      },
+      {
+        "img": "https://i8.mifile.cn/b2c-mimall-media/1f4c867b5ccb878b43054f640636c872.jpg",
+        "name": "最生活毛巾•青春系列",
+        "detail": "3秒吸水，杀菌无刺激",
+        "price": "<span class=\"num\">19.9</span>元<!----><!---->"
+      },
+      {
+        "img": "https://i8.mifile.cn/v1/a1/T1r_x_BgLT1RXrhCrK.jpg",
+        "name": "九号平衡车",
+        "detail": "年轻人的酷玩具",
+        "price": "<span class=\"num\">1999</span>元<!----><!---->"
+      },
+      {
+        "img": null,
+        "name": null,
+        "detail": null,
+        "price": null
+      }
+    ]
+  ]
+}

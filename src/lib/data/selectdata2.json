@@ -1,0 +1,122 @@
+{
+  "title": "家电",
+  "more": ["热门", "电视影音"],
+  "ad": [
+    "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b56fd90a60e3d9e5d87dae9fbd427ea8.jpg?w=468&h=600",
+    "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b67de5a8ce9025fb5d8bac66e019d1c3.jpg?w=468&h=600"
+  ],
+  "product": [
+    [
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8ce424d6fe93dfb74733b5838140b7ee.jpg",
+        "name": "米家互联网空调C1（一级能效）",
+        "detail": "变频节能省电，自清洁",
+        "price": "<span class=\"num\">2399</span>元<!----><del><span class=\"num\">2699</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/2b911be4c2f156bb6e4cf367c6080045.jpg",
+        "name": "米家空调",
+        "detail": "出众静音，快速制冷热",
+        "price": "<span class=\"num\">1399</span>元<!----><del><span class=\"num\">1799</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ec20453216dcd42f982cffe5fdbc3115.jpg",
+        "name": "米家互联网洗烘一体机 Pro 10kg",
+        "detail": "智能洗烘，省心省力",
+        "price": "<span class=\"num\">2999</span>元<!----><!---->"
+      },
+      {
+        "img": "https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633.jpg",
+        "name": "小米电视4A 32英寸",
+        "detail": "人工智能系统，高清液晶屏",
+        "price": "<span class=\"num\">799</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b8c63a2024528fe5410ebe669b7d2407.jpg",
+        "name": "Redmi全自动波轮洗衣机1A 8kg",
+        "detail": "一键操作，父母都爱用",
+        "price": "<span class=\"num\">799</span>元<!----><del><span class=\"num\">899</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ef6b4e9b9151849b3b1fb1dbf069c6ed.jpg",
+        "name": "小米全面屏电视E55A",
+        "detail": "全面屏设计，人工智能语音",
+        "price": "<span class=\"num\">1899</span>元<!----><del><span class=\"num\">1999</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/cd2aa2dcad6440b469c22e27db9b6236.jpg",
+        "name": "15.6\" 四核i7 16G 独显 512G",
+        "detail": "全面均衡的国民轻薄本",
+        "price": "<span class=\"num\">4699</span>元<!----><del><span class=\"num\">4899</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/74e573c4c0d89048392d14831cc507d5.jpg",
+        "name": "Air 13.3\" 2019款",
+        "detail": null,
+        "price": "<span class=\"num\">5699</span>元<span>起</span>"
+      },
+      {
+        "img": null,
+        "name": null,
+        "detail": null,
+        "price": null
+      }
+    ],
+    [
+      {
+        "img": "https://i8.mifile.cn/v1/a1/ef617fac-7489-436d-b74e-c43582f09633.jpg",
+        "name": "小米电视4A 32英寸",
+        "detail": "人工智能系统，高清液晶屏",
+        "price": "<span class=\"num\">799</span>元<!----><!---->"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ef6b4e9b9151849b3b1fb1dbf069c6ed.jpg",
+        "name": "小米全面屏电视E55A",
+        "detail": "全面屏设计，人工智能语音",
+        "price": "<span class=\"num\">1899</span>元<!----><del><span class=\"num\">1999</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b3317a291b112aa4712059ad93263668.jpg",
+        "name": "小米全面屏电视E65A",
+        "detail": "全面屏设计，人工智能语音",
+        "price": "<span class=\"num\">2899</span>元<!----><del><span class=\"num\">3099</span>元</del>"
+      },
+      {
+        "img": "https://i8.mifile.cn/b2c-mimall-media/ede227c1f0e3472fb8dcfae980d1e43f.jpg",
+        "name": "小米电视4X 43英寸",
+        "detail": "FHD全高清屏，人工智能语音",
+        "price": "<span class=\"num\">1299</span>元<!----><del><span class=\"num\">1399</span>元</del>"
+      },
+      {
+        "img": "https://i8.mifile.cn/v1/a1/cef8a9c0-2386-5b66-9ed2-6b1d4e4490bf.jpg",
+        "name": "小米电视4C 55英寸",
+        "detail": "4K HDR，人工智能系统",
+        "price": "<span class=\"num\">1899</span>元<!----><del><span class=\"num\">1999</span>元</del>"
+      },
+      {
+        "img": "https://i8.mifile.cn/b2c-mimall-media/91b59cc6474e0cd777445b15adb13980.jpg",
+        "name": "小米电视4A 65英寸",
+        "detail": "4K HDR，人工智能语音系统",
+        "price": "<span class=\"num\">2899</span>元<!----><del><span class=\"num\">2999</span>元</del>"
+      },
+      {
+        "img": "https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/0e7eee530e4a103f2f5a0937a14bed53.jpg",
+        "name": "小米壁画电视 65英寸",
+        "detail": "壁画外观，全面屏，远场语音",
+        "price": "<span class=\"num\">6999</span>元<!----><!---->"
+      },
+      {
+        "img": "https://i8.mifile.cn/b2c-mimall-media/aa8a6ce3b2b1201d74d0197482f3403b.jpg",
+        "name": "小米盒子4",
+        "detail": null,
+        "price": "<span class=\"num\">299</span>元<!---->"
+      },
+      {
+        "img": null,
+        "name": null,
+        "detail": null,
+        "price": null
+      }
+    ]
+  ]
+}
