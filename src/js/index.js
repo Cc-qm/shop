@@ -313,4 +313,36 @@ $(() => {
     }
   });
   new AD(ad[6]).init();
+
+  $(".banner2>ul").on("click", "li", function() {
+    let data = {};
+    data.name = $(this)
+      .children("h3")
+      .text();
+    data.src = $(this).children("img")[0].src;
+    data.detail = $(this).children("p")[0].innerText;
+    data.price = $(this)
+      .children("p.price2")
+      .html();
+
+    localStorage.setItem("item_info", JSON.stringify(data));
+    location.href = "../pages/detail.html";
+  });
+
+  $(".content-right>ul").on("click", "li", function() {
+    let data = {};
+    if ($(this).children("img").length) {
+      data.name = $(this)
+        .children("h3")
+        .text();
+      data.src = $(this).children("img")[0].src;
+      data.detail = $(this).children("p")[0].innerText;
+      data.price = $(this)
+        .children("p.price2")
+        .html();
+
+      localStorage.setItem("item_info", JSON.stringify(data));
+      location.href = "../pages/detail.html";
+    }
+  });
 });

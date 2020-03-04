@@ -1,0 +1,14 @@
+.header-nav > ul > li:first-of-type > a {
+  display: inline;
+}
+.header-nav > ul > li:first-of-type > ul {
+  display: none;
+}
+.header-nav > ul > li:first-of-type > ul a {
+  color: #000;
+}
+.header-nav > ul > li:first-of-type:hover ul {
+  background-color: #ffffff;
+  border: 1px solid #ff6700;
+  display: block;
+}

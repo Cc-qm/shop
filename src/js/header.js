@@ -58,6 +58,8 @@ window.onload = function() {
 
     //创建第一层导航列表
     createNav() {
+      console.log($(".header-nav>ul"));
+
       $(".header-nav>ul")
         .eq(0)
         .html(
@@ -122,7 +124,7 @@ window.onload = function() {
         if (ele.product) {
           let html1 = ele.product
             .map(ele => {
-              return `<li>
+              return `<li data-name="${ele.name}">
                         <a href="#">
                             <img src=${ele.img}>
                             <p>${ele.name}</p>
@@ -216,5 +218,17 @@ window.onload = function() {
     success: function(res) {
       new Search_box(res).init();
     }
+  });
+
+  $(".nav-detail>ul").on("click", "li", function() {
+    let data = {};
+    data.name = $(this).data("name");
+    data.src = $(this).find("img")[0].src;
+    data.price = $(this)
+      .find("p.price")
+      .html();
+
+    localStorage.setItem("item_info", JSON.stringify(data));
+    location.href = "../pages/detail.html";
   });
 };

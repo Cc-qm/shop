@@ -1,1 +1,1 @@
-"use strict";
+"use strict";$(function(){$("#header").load("../pages/header.html")});

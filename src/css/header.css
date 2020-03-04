@@ -187,7 +187,8 @@ header {
   text-align: right;
 }
 .header-nav > ul > li:first-of-type > a {
-  visibility: hidden;
+  /* visibility: hidden; */
+  display: none;
 }
 .header-nav .banner-nav {
   z-index: 1;
