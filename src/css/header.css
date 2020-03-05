@@ -411,6 +411,7 @@ header {
   font-size: 12px;
   padding: 6px 15px;
 }
-.header-search input:focus ~ .search-box {
+.header-search input:focus ~ .search-box,
+.search-box:active {
   display: block;
 }

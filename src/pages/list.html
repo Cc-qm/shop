@@ -6,7 +6,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/base.css" />
     <link rel="stylesheet" href="../lib/iconfont/iconfont.css" />
-    <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../lib/pagination/pagination.css" />
     <link rel="stylesheet" href="../css/list.css" />
@@ -19,20 +18,30 @@
 
   <body>
     <div id="header"></div>
-    <div class="M-box3"></div>
-    <script>
-      $(".M-box3").pagination({
-        pageCount: 50,
-        jump: true,
-        coping: true,
-        homePage: "首页",
-        endPage: "末页",
-        prevContent: "上页",
-        nextContent: "下页",
-        callback: function(api) {
-          console.log(api.getCurrent());
-        }
-      });
-    </script>
+    <div class=" list">
+      <div class="con">
+        <div class="filter">
+          <ul>
+            <li class="active">综合</li>
+            <li>新品</li>
+            <li>销量</li>
+            <li>价格↑↓</li>
+          </ul>
+        </div>
+        <div class="goodsList">
+          <ul>
+            <!-- <li>
+              <img
+                src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f1f94bdd60c54ae8be783cb6fe49feb8.jpg"
+                alt=""
+              />
+              <h2>腾讯黑鲨游戏手机3 Pro</h2>
+              <p>4699元 起</p>
+            </li> -->
+          </ul>
+        </div>
+        <div class="M-box3 m-style page-foot"></div>
+      </div>
+    </div>
   </body>
 </html>

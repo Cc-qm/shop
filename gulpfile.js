@@ -2,7 +2,7 @@
  * @Author: cai
  * @Date: 2020-03-01 12:28:44
  * @Last Modified by: cai
- * @Last Modified time: 2020-03-03 22:19:20
+ * @Last Modified time: 2020-03-05 17:06:21
  */
 
 //导入各个模块
@@ -87,6 +87,10 @@ const serverHandler = () => {
         {
           source: "/cancel",
           target: "http://localhost:8083/homework/shop_server/cancel.php"
+        },
+        {
+          source: "/xm",
+          target: "https://api.search.mi.com/search"
         }
       ]
     })

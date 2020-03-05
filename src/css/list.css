@@ -12,3 +12,79 @@
   border: 1px solid #ff6700;
   display: block;
 }
+.list {
+  background-color: #f5f5f5;
+}
+.filter {
+  height: 70px;
+  padding: 20px 0;
+}
+.filter ul li {
+  padding: 0 30px;
+  float: left;
+  color: #424242;
+  font-size: 14px;
+  border-right: 1px solid #cccccc;
+}
+.filter ul li:last-child {
+  border: none;
+}
+.filter ul li:hover {
+  color: #ff6700;
+}
+.filter ul li.active {
+  color: #ff6700;
+}
+.goodsList ul {
+  overflow: hidden;
+  width: 1240px;
+}
+.goodsList ul li {
+  float: left;
+  width: 296px;
+  height: 430px;
+  margin: 0 14px 14px 0;
+  transition: box-shadow 0.5s linear;
+  padding-top: 47px;
+  color: #333333;
+  text-align: center;
+  background-color: #ffffff;
+  -webkit-transition: box-shadow 0.5s linear;
+  -moz-transition: box-shadow 0.5s linear;
+  -ms-transition: box-shadow 0.5s linear;
+  -o-transition: box-shadow 0.5s linear;
+}
+.goodsList ul li:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.goodsList img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.goodsList h2 {
+  font-size: 14px;
+  color: #424242;
+  margin-bottom: 10px;
+  width: 230px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: auto;
+}
+.goodsList p {
+  font-size: 14px;
+  color: #ff6700;
+}
+.goodsList p del {
+  color: #b0b0b0;
+}
+.page-foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.search-box li:hover {
+  background-color: rgb(233, 233, 233);
+}

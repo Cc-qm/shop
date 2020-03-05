@@ -16,6 +16,7 @@ $(() => {
     if (item.detail) {
       $(".Xcontent20").html(item.detail);
     }
+    $(".title").text(item.name);
     $(".Xcontent06 img")[0].src = item.src;
     $(".Xcontent14 p").html(item.name);
     $(".Xcontent19 span").html(item.price);
