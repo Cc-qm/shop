@@ -25,6 +25,7 @@
   color: #424242;
   font-size: 14px;
   border-right: 1px solid #cccccc;
+  cursor: pointer;
 }
 .filter ul li:last-child {
   border: none;

@@ -29,4 +29,7 @@ $(() => {
     magnifiereffectanimate: "fadeIn",
     magnifierborder: "none"
   });
+  $(".Xcontent34 input").click(function() {
+    location.href = "../pages/car.html";
+  });
 });

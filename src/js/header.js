@@ -202,15 +202,26 @@ window.onload = function() {
   }
   $.ajax({
     type: "get",
-    async: false,
+    async: true,
     url: "../lib/data/data.json",
     dataType: "json",
     success: function(res) {
       new XiaoMi(res).init();
+      $(".nav-detail>ul").on("click", "li", function() {
+        let data = {};
+        data.name = $(this).data("name");
+        data.src = $(this).find("img")[0].src;
+        data.price = $(this)
+          .find("p.price")
+          .html();
+
+        localStorage.setItem("item_info", JSON.stringify(data));
+        location.href = "../pages/detail.html";
+      });
     }
   });
   $.ajax({
-    async: false,
+    async: true,
     type: "get",
     url: "../lib/data/data2.json",
     dataType: "json",
@@ -219,44 +230,62 @@ window.onload = function() {
     }
   });
 
-  $(".nav-detail>ul").on("click", "li", function() {
-    let data = {};
-    data.name = $(this).data("name");
-    data.src = $(this).find("img")[0].src;
-    data.price = $(this)
-      .find("p.price")
-      .html();
-
-    localStorage.setItem("item_info", JSON.stringify(data));
-    location.href = "../pages/detail.html";
-  });
-
   let flag = true; //是否重新渲染分页按钮
-  let q = "";
-  function getList(query = "手机", currPage = 1) {
+  let q = "手机";
+  let sort = 0;
+  let list = [];
+  let sortBy = "";
+  function getList(
+    query = "手机",
+    currPage = 1,
+    main_sort = 0,
+    sortBy = "asc"
+  ) {
     q = query;
-    $.ajax({
-      type: "get",
-      url: "/xm",
-      data: {
+    sort = main_sort;
+    let queryString = {};
+    if (main_sort == 2) {
+      queryString = {
         query: query,
         page_index: currPage,
         page_size: 20,
         filter_tag: 0,
-        main_sort: 0,
+        main_sort: main_sort,
+        sort_by: sortBy,
         province_id: 20,
         city_id: 233,
         classIndex: 0
-      },
+      };
+    } else {
+      queryString = {
+        query: query,
+        page_index: currPage,
+        page_size: 20,
+        filter_tag: 0,
+        main_sort: main_sort,
+        province_id: 20,
+        city_id: 233,
+        classIndex: 0
+      };
+    }
+
+    $.ajax({
+      type: "get",
+      url: "/xm",
+      data: queryString,
       dataType: "jsonp",
       success: function(response) {
         console.log(response);
+        if (response.data) {
+          list = response.data.pc_list;
+          //   console.log("response.data.pc_list", response.data.pc_list);
 
-        if (response.data.pc_list) {
-          bindHtml(response.data.pc_list);
-          flag && bindPagi(Math.ceil(response.data.total / 20));
-        } else {
-          $(".goodsList").html(`抱歉！没有找到与“${query}”相关的物品`);
+          if (response.data.pc_list) {
+            bindHtml(response.data.pc_list);
+            flag && bindPagi(Math.ceil(response.data.total / 20));
+          } else {
+            $(".goodsList").html(`抱歉！没有找到与“${query}”相关的物品`);
+          }
         }
       }
     });
@@ -264,22 +293,22 @@ window.onload = function() {
 
   function bindHtml(item) {
     let html = $.map(item, function(value) {
-      let price = "";
+      let price1 = "";
       if (
         value.commodity_list[0].price == value.commodity_list[0].market_price
       ) {
-        price = `${value.commodity_list[0].price}元`;
+        price1 = `${value.commodity_list[0].price}元`;
       } else {
-        price = `${value.commodity_list[0].price}元
+        price1 = `${value.commodity_list[0].price}元
             <del>${value.commodity_list[0].market_price}</del>`;
       }
-      return `<li>
+      return `<li data-productid=${value.commodity_list[0].product_id}>
                 <img
                     src=${value.commodity_list[0].image}
                     alt=""
                 />
                 <h2>${value.commodity_list[0].name}</h2>
-                <p>${price}
+                <p>${price1}
                  </p>
             </li>`;
     }).join("");
@@ -303,7 +332,7 @@ window.onload = function() {
           console.log(1111111);
           // console.log(search);
 
-          getList(q, api.getCurrent());
+          getList(q, api.getCurrent(), sort, sortBy);
         }
       });
     }
@@ -314,11 +343,19 @@ window.onload = function() {
     flag = true;
     e.preventDefault();
     if (location.href.indexOf("list") != -1) {
-      getList(
+      if (
         $(this)
           .prev()
-          .val()
-      );
+          .val() == ""
+      ) {
+        getList();
+      } else {
+        getList(
+          $(this)
+            .prev()
+            .val()
+        );
+      }
     } else {
       location.href =
         "../pages/list.html?search=" +
@@ -342,7 +379,6 @@ window.onload = function() {
       location.href = "../pages/list.html?search=" + $(this).text();
     }
   });
-
   $(".banner-nav").on("click", "a", function(e) {
     flag = true;
     e.preventDefault();
@@ -361,6 +397,83 @@ window.onload = function() {
     }
   });
 
+  $(".header-nav>ul").on("click", "a", function(e) {
+    e.preventDefault();
+    console.log(this);
+    flag = true;
+    e.preventDefault();
+    if (location.href.indexOf("list") != -1) {
+      getList(
+        $(this)
+          .text()
+          .trim()
+      );
+    } else {
+      location.href =
+        "../pages/list.html?search=" +
+        $(this)
+          .text()
+          .trim();
+    }
+  });
   q = decodeURI(location.search.substr(1).split("=")[1]);
   q == "" ? getList() : getList(q);
+
+  $(".goodsList ul").on("click", "li", function() {
+    for (let i = 0, len = list.length; i < len; i++) {
+      if (list[i].commodity_list[0].product_id == $(this).data("productid")) {
+        console.log(list[i].commodity_list[0]);
+        let data = {};
+        data.name = list[i].commodity_list[0].name;
+        data.src = list[i].commodity_list[0].image;
+        if (
+          list[i].commodity_list[0].price ==
+          list[i].commodity_list[0].market_price
+        ) {
+          data.price = list[i].commodity_list[0].price;
+        } else {
+          data.price = ` <span>${list[i].commodity_list[0].price}</span>元<del>${list[i].commodity_list[0].market_price}</del>`;
+        }
+
+        data.detail = list[i].commodity_list[0].desc;
+        localStorage.setItem("item_info", JSON.stringify(data));
+        location.href = "../pages/detail.html";
+        break;
+      }
+    }
+  });
+
+  $(".filter ul").on("click", "li", function() {
+    $(this)
+      .addClass("active")
+      .siblings()
+      .removeClass("active");
+    // if ($(this).text() == "新品") {
+    //   sort = 4;
+    //   getList(q, 1, sort);
+    // }
+    switch ($(this).text()) {
+      case "新品":
+        sort = 4;
+        break;
+      case "销量":
+        sort = 1;
+        break;
+      case "价格↑":
+        sort = 2;
+        sortBy = "dsc";
+        $(this).text("价格↓");
+        break;
+      case "价格↓":
+        sort = 2;
+        sortBy = "asc";
+        $(this).text("价格↑");
+        break;
+      default:
+        sort = 0;
+    }
+    console.log(q, 1, sort, sortBy);
+
+    getList(q, 1, sort, sortBy);
+  });
 };
