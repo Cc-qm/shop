@@ -1,0 +1,190 @@
+.header {
+  height: 100px;
+  border-bottom: 2px solid #ff6700;
+  margin-bottom: 38px;
+  background: #fff;
+}
+body {
+  background-color: #f5f5f5;
+}
+.header-logo {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  background-color: #ff6700;
+  display: block;
+  overflow: hidden;
+  float: left;
+  margin-right: 52px;
+}
+
+.header-logo::before,
+.header-logo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  transition: all 0.2s;
+}
+
+.header-logo::before {
+  background: url("../images/mi-logo.png") no-repeat 50% 50%;
+}
+
+.header-logo::after {
+  background: url("../images/mi-home.png") no-repeat 50% 50%;
+  margin-left: -55px;
+}
+
+.header-logo:hover::before,
+.header-logo:hover::after {
+  left: 55px;
+}
+
+.carHeader {
+  padding-top: 26px;
+  overflow: hidden;
+  height: 100px;
+}
+h1 {
+  font-size: 28px;
+}
+.carHeader p {
+  font-size: 12px;
+  height: 20px;
+  color: #757575;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.load {
+  float: right;
+}
+.load li {
+  float: left;
+  margin-right: 20px;
+}
+.car {
+  background: #fff;
+}
+.car-head {
+  height: 70px;
+}
+.car-head div {
+  float: left;
+  line-height: 70px;
+  color: #424242;
+  font-size: 14px;
+  text-align: center;
+}
+.car .check {
+  width: 110px;
+  text-align: left;
+}
+.check input {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #e0e0e0;
+  margin-right: 15px;
+  margin-left: 24px;
+}
+.img {
+  width: 120px;
+}
+.car .name {
+  width: 380px;
+  text-align: left;
+}
+.price {
+  width: 158px;
+  padding-right: 18px;
+}
+.num {
+  width: 150px;
+}
+.total {
+  width: 201px;
+  padding-right: 81px;
+}
+.action {
+  width: 80px;
+}
+
+.item-box {
+  height: 115px;
+  border-top: 1px solid #e0e0e0;
+}
+.car-body {
+  overflow: hidden;
+}
+.car-body div {
+  float: left;
+  text-align: center;
+  line-height: 115px;
+}
+.action button {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  font-size: 16px;
+  border-radius: 50% 50%;
+  -webkit-border-radius: 50% 50%;
+  -moz-border-radius: 50% 50%;
+  -ms-border-radius: 50% 50%;
+  -o-border-radius: 50% 50%;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.action button:hover {
+  color: #fff;
+  background-color: #e53935;
+}
+.car-foot {
+  margin-top: 20px;
+  height: 50px;
+  background-color: #fff;
+  line-height: 50px;
+  font-size: 14px;
+  color: #333333;
+}
+.car-foot a {
+  margin-left: 32px;
+  margin-right: 16px;
+  color: #757575;
+}
+.car-foot a:hover {
+  color: #ff6700;
+}
+.car-foot span:first-of-type {
+  padding-left: 16px;
+  border-left: 1px solid #cccccc;
+}
+.car-foot span:first-of-type i,
+.car-foot span:first-of-type em {
+  color: #ff6700;
+}
+.car-foot span:last-of-type {
+  float: right;
+  font-size: 14px;
+  color: #ff6700;
+}
+.car-foot span:last-of-type em {
+  font-size: 30px;
+}
+.car-foot button {
+  float: right;
+  width: 202px;
+  height: 50px;
+  font-size: 18px;
+  margin-left: 50px;
+  background-color: #e0e0e0;
+  color: #b0b0b0;
+}
+#buy {
+  /* background-color: #ff6700;
+  color: #fff; */
+}

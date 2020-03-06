@@ -1,1 +1,1 @@
-"use strict";$(function(){});
+"use strict";$(function(){$.ajax({type:"post",url:"/ifloaded",dataType:"json",success:function(a){a.loaded&&($(".load>li:eq(0)").html("<a >你好，".concat(decodeURI(Cookie.get("name")),"</a>")),$(".load>li:eq(1)").html('<a href="./login.html">注销</a>'),$(".load>li:eq(1)>a").click(function(){$.ajax({type:"post",url:"/cancel",dataType:"json",success:function(a){console.log(a)}}),alert("已注销该账户，请重新登录！")}))}})});
