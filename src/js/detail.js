@@ -30,6 +30,42 @@ $(() => {
     magnifierborder: "none"
   });
   $(".Xcontent34 input").click(function() {
-    location.href = "../pages/car.html";
+    //判断是否已登录
+    $.ajax({
+      type: "post",
+      url: "/ifloaded",
+      dataType: "json",
+      success: function(response) {
+        if (response.loaded) {
+          //   console.log("已登录");
+          let cartList = JSON.parse(localStorage.getItem("cartList")) || [];
+
+          let exits = cartList.some(value => {
+            return value.name == item.name;
+          });
+          if (exits) {
+            for (let i = 0, len = cartList.length; i < len; i++) {
+              if (cartList[i].name == item.name) {
+                cartList[i].number++;
+                cartList[i].xiaoji = cartList[i].number * cartList[i].price;
+              }
+            }
+          } else {
+            item.number = 1;
+            item.isSelect = false;
+
+            item.price = item.price.split("</span>")[0].replace(/[^0-9]/gi, "");
+            item.xiaoji = item.price;
+            cartList.push(item);
+          }
+
+          localStorage.setItem("cartList", JSON.stringify(cartList));
+          alert("已加入购物车~");
+        } else {
+          alert("您还没有登录，请登录在加入购物车！");
+          location.href = "../pages/login.html";
+        }
+      }
+    });
   });
 });

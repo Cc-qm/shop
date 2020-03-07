@@ -426,6 +426,7 @@ window.onload = function() {
         let data = {};
         data.name = list[i].commodity_list[0].name;
         data.src = list[i].commodity_list[0].image;
+        data.id = $(this).data("productid");
         if (
           list[i].commodity_list[0].price ==
           list[i].commodity_list[0].market_price

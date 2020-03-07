@@ -92,6 +92,10 @@ h1 {
 .img {
   width: 120px;
 }
+.img img {
+  width: 80px;
+  height: 80px;
+}
 .car .name {
   width: 380px;
   text-align: left;
@@ -100,8 +104,21 @@ h1 {
   width: 158px;
   padding-right: 18px;
 }
-.num {
+.number {
   width: 150px;
+  height: 40px;
+  display: flex;
+  margin-top: 40px;
+}
+#num {
+  margin: 0;
+  padding-left: 50px;
+}
+.number input {
+  width: 72px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  text-align: center;
 }
 .total {
   width: 201px;
@@ -185,6 +202,6 @@ h1 {
   color: #b0b0b0;
 }
 #buy {
-  /* background-color: #ff6700;
-  color: #fff; */
+  background-color: #ff6700;
+  color: #fff;
 }
